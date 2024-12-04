@@ -1,8 +1,11 @@
-/* Estilo general */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f7fa;
     padding-top: 50px;
+    background-image: url('viaje2.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center center; /* Centra la imagen en la pantalla */
+    background-attachment: fixed; /* Hace que la imagen quede fija al hacer scroll */
   }
 
   /* Sección de Turismo */
