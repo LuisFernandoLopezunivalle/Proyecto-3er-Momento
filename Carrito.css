@@ -1,37 +1,89 @@
-/* Estilos personalizados para el carrito de compras */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
 
-#carrito {
-    background-color: #f8f9fa;
-    padding: 40px;
-    border-radius: 8px;
-  }
-  
-  .card-body .price {
-    font-weight: bold;
-    color: #007bff;
-    font-size: 1.2rem;
-  }
-  
-  #cart-items {
-    margin-top: 20px;
-  }
-  
-  #cart-items li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  #cart-items li .remove-item {
-    color: red;
-    cursor: pointer;
-  }
-  
-  h4 {
-    font-size: 1.5rem;
-  }
-  
-  #checkout {
-    width: 100%;
-  }
-  
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+.viaje {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.viaje img {
+  width: 100px;
+  height: 100px;
+}
+
+.viaje div {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#tablaCarrito {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+#tablaCarrito th, #tablaCarrito td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.total {
+  text-align: right;
+  margin-top: 20px;
+}
+
+#vaciarCarrito {
+  background-color: #dc3545;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+#vaciarCarrito:hover {
+  background-color: #c82333;
+}
+
+#finalizarCompra {
+  background-color: #28a745;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#finalizarCompra:hover {
+  background-color: #218838;
+}
