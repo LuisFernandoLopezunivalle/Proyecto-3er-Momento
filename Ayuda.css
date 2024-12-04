@@ -1,0 +1,31 @@
+/* Estilo de fondo para el apartado FAQ */
+#faq {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    border-radius: 8px;
+    color: #505af0;
+  }
+  
+  /* Estilo para las preguntas */
+  .faq-item h5 {
+    color: #4853f5;
+    font-size: 1.25rem;
+  }
+  
+  /* Estilo para las respuestas */
+  .faq-item p {
+    font-size: 1rem;
+    color: #84929e;
+    line-height: 1.5;
+  }
+  
+  /* Estilo de texto para mejorar la lectura */
+  .faq-item {
+    border-bottom: 1px solid #b6afaf;
+    padding-bottom: 20px;
+  }
+  
+  .faq-item:last-child {
+    border-bottom: none;
+  }
+  

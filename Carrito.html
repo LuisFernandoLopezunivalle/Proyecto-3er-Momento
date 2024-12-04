@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras - Viajes</title>
+  <!-- Incluir Bootstrap 5 desde CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"> <!-- Tu archivo de estilos CSS -->
+</head>
+<body>
+
+  <!-- Apartado de Carrito de Compras -->
+  <section id="carrito" class="container my-5">
+    <h2 class="text-center mb-4">Carrito de Compras</h2>
+
+    <!-- Destinos disponibles para compra -->
+    <div class="row mb-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="argentina.jpg" class="card-img-top" alt="Argentina">
+          <div class="card-body">
+            <h5 class="card-title">Argentina</h5>
+            <p class="card-text">Viaje a Argentina, descubra los destinos más turísticos.</p>
+            <p class="price">$1000</p>
+            <button class="btn btn-primary add-to-cart" data-destination="Argentina" data-price="1000">Agregar al Carrito</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="brazil.jpg" class="card-img-top" alt="Brasil">
+          <div class="card-body">
+            <h5 class="card-title">Brasil</h5>
+            <p class="card-text">Explora Brasil y sus hermosos paisajes.</p>
+            <p class="price">$1000</p>
+            <button class="btn btn-primary add-to-cart" data-destination="Brasil" data-price="1000">Agregar al Carrito</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="chile.jpg" class="card-img-top" alt="Chile">
+          <div class="card-body">
+            <h5 class="card-title">Chile</h5>
+            <p class="card-text">Viajemos a Chile y disfruta de la naturaleza.</p>
+            <p class="price">$1000</p>
+            <button class="btn btn-primary add-to-cart" data-destination="Chile" data-price="1000">Agregar al Carrito</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carrito de compras -->
+    <h3>Tu Carrito</h3>
+    <ul id="cart-items" class="list-group mb-3">
+      <!-- Aquí se agregarán los destinos seleccionados -->
+    </ul>
+    
+    <h4>Total: $<span id="total">0</span></h4>
+    <button id="checkout" class="btn btn-success mt-3">Finalizar Compra</button>
+  </section>
+
+  <!-- Incluir JS de Bootstrap 5 -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybGz6kz5SHOpxG54kzP5l6zqf3E4ktJ1p6IXd6fL5fEXB6ExzR" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyJzJ7vJfK3hbfM0zWG7EXVJH54dmfU5zytAfTt55y60F6l1CZ+xt1S" crossorigin="anonymous"></script>
+  <script src="script.js"></script> <!-- Tu archivo de JS -->
+</body>
+</html>

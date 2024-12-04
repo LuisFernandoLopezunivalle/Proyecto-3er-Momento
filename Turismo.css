@@ -1,0 +1,78 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    padding-top: 50px;
+  }
+
+  /* Sección de Turismo */
+  .tourism-section {
+    padding: 50px 0;
+  }
+
+  /* Título */
+  .tourism-section h2 {
+    text-align: center;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+  /* Descripción introductoria */
+  .tourism-section p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+  }
+
+  /* Tarjetas */
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card-img-top {
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+    height: 250px;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .card-text {
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+
+  @media (max-width: 767px) {
+    .tourism-section .row {
+      margin-bottom: 30px;
+    }
+  }

@@ -1,0 +1,37 @@
+/* Estilos personalizados para el carrito de compras */
+
+#carrito {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 8px;
+  }
+  
+  .card-body .price {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 1.2rem;
+  }
+  
+  #cart-items {
+    margin-top: 20px;
+  }
+  
+  #cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #cart-items li .remove-item {
+    color: red;
+    cursor: pointer;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+  }
+  
+  #checkout {
+    width: 100%;
+  }
+  

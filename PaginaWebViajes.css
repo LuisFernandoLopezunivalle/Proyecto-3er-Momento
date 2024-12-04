@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  section {
+    padding: 20px 0;
+  }
+  footer {
+    margin-top: 50px;
+  }
+  .navbar-custom {
+    background-color: #34d0db; 
+  }
+  
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav-link {
+    color: white; /* Cambiar el color del texto */
+  }
+  #inicio img {
+    max-width: 50%; /* Ajusta el porcentaje del tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+  #Formulario img {
+    max-width: 60%; /* Ajusta el porcentaje del tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+  #blog img {
+    max-width: 60%; /* Ajusta el porcentaje del tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+  .card-img-top {
+  height: 200px; /* Establece una altura fija para todas las imágenes */
+  object-fit: cover; /* Hace que la imagen cubra todo el espacio sin deformarse */
+  width: 100%; /* Asegura que la imagen ocupe el 100% del ancho de la tarjeta */
+}
+/* Estilo adicional para las tarjetas */
+.card {
+  border: none;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+.footera {
+  background-color: #800080; 
+}

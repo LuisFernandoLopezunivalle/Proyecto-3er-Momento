@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mi Página Web</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="PaginaWebViajes.css">
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <a class="navbar-brand" href="#">
+      <img src="logo2.png" alt="Logo de la empresa" style="width: 50px; height: auto;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a class="nav-link" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="Formulario-de-Registro.html">Formulario de Registro</a></li>
+        <li class="nav-item"><a class="nav-link" href="#destino">Destinos</a></li>        
+        <li class="nav-item"><a class="nav-link" href="#turismo">Turismo</a></li>
+        <li class="nav-item"><a class="nav-link" href="#carrito">Carrito de Compras</a></li>
+        <li class="nav-item"><a class="nav-link" href="#ayuda">Ayuda</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Apartado de inicio -->
+  <section id="inicio" class="container my-5">
+    <h2 class="text-center">Bienvenidos a </h2>
+    <h2 class="text-center">AeroSur</h2>
+    <div class="d-flex justify-content-center">
+      <img src="vuelo3.jpg" class="img-fluid" alt="Imagen de bienvenida">
+    </div>
+    <p>
+      <p class="text-center">Explora nuestras promociones, servicios y mucho más a nivel internacional.</p>
+    </p>
+  </section>
+
+  <!-- Formulario de registro -->
+  <section id="Formulario" class="container my-5">
+    <h3>Formulario de Registro</h3>
+    <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-center">
+        <img src="registro2.jpg" class="img-fluid" alt="formulario">
+      </div>    
+    </div>
+    <p></p>
+    <a href="Formulario-de-Registro.html" class="btn btn-primary">Registrarse</a>
+  </section>
+
+  <!-- Turismo  -->
+  <section id="turismo" class="container my-5">
+    <h3>Turismo </h3>
+    <p>Información sobre los mejores destinos turísticos </p>
+    <p></p>
+    <a href="Turismo.html" class="btn btn-primary">Explorar</a>
+    <p></p>
+    <img src="turismo-internacional.jpg" class="img-fluid" alt="Guía Turística">
+  </section>
+
+  <!-- Productos y servicios -->
+<section id="destino" class="container my-5">
+  <h3>Destinos</h3>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="c1.jpg" class="card-img-top" alt="Producto 1">
+        <div class="card-body">
+          <h5 class="card-title">Chile</h5>
+          <p class="card-text">Conocida por su pasión por el tango, la carne y paisajes como la Patagonia y las Cataratas del Iguazú.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="b1.jpg" class="card-img-top" alt="Producto 2">
+        <div class="card-body">
+          <h5 class="card-title">Brasil</h5>
+          <p class="card-text">Famoso por sus playas, el carnaval de Río y la selva amazónica. Un país lleno de cultura y alegría.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="a1.jpg" class="card-img-top" alt="Producto 3">
+        <div class="card-body">
+          <h5 class="card-title">Argentina</h5>
+          <p class="card-text">Desde el desierto de Atacama hasta los glaciares del sur, Chile ofrece una increíble diversidad de paisajes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Carrito de Compras -->
+  <section id="carrito" class="container my-5">
+    <h3>Carrito de Compras</h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Cantidad</th>
+          <th>Precio</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody id="tablaCarrito">
+        <!-- Aquí se agregarán productos con JavaScript -->
+      </tbody>
+    </table>
+    <button class="btn btn-success" id="comprar">Finalizar Compra</button>
+  </section>
+
+  <!-- Ayuda -->
+  <section id="ayuda" class="container my-5">
+    <h3>Ayuda</h3>
+    <div class="mb-4">
+      <div class="card"> 
+      </div>
+    </div>
+    <p>
+      <a href="Turismo.html" class="btn btn-primary">Preguntas Frecuentes</a>
+    </p>   
+  </section>
+
+  <!-- Footer -->
+  <footer class="footera text-white text-center p-3">
+    <p>&copy; 2024 AeroSur. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Scripts de Bootstrap y JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
