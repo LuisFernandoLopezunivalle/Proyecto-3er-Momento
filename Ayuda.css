@@ -1,6 +1,12 @@
-/* Estilo de fondo para el apartado FAQ */
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('viaje5.jpeg'); /* Ruta de la imagen */
+  background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+  background-position: center center; /* Centra la imagen en la pantalla */
+  background-attachment: fixed; /* Hace que la imagen quede fija al hacer scroll */
+}
 #faq {
-    background-color: #f8f9fa;
+    
     padding: 40px 20px;
     border-radius: 8px;
     color: #505af0;
@@ -15,13 +21,13 @@
   /* Estilo para las respuestas */
   .faq-item p {
     font-size: 1rem;
-    color: #84929e;
+    color: rgb(255, 255, 255);
     line-height: 1.5;
   }
   
   /* Estilo de texto para mejorar la lectura */
   .faq-item {
-    border-bottom: 1px solid #b6afaf;
+    border-bottom: 1px solid white;
     padding-bottom: 20px;
   }
   
